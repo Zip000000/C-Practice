@@ -17,19 +17,33 @@ using namespace std;
 
 class A {
 public:
-    virtual void run() {}
+    virtual void run() {
+        cout << "A run" << endl;
+    }
+    virtual void run2() {
+        cout << "A2 run" << endl;
+    }
 };
 
 class B : public A{
 public:
-    void run() {}
+    void run() {
+        cout << "B RUN " << endl;
+    }
+    void run2() {
+        cout << "B2 RUN " << endl;
+    }
 
 };
 
+typedef void (*func)();
 
 int main() {
     cout << sizeof(A) << endl;
     cout << sizeof(B) << endl;
+    
+    B b;
+    ((func **)&b)[0][0]();
 
     return 0;
 }
