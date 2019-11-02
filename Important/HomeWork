@@ -1,0 +1,72 @@
+百度 ma6174 vim配置
+
+作业：
+写一个程序
+不需要任何参数
+输出以下信息：
+	1.username
+	2.hostname
+	3.当前工作目录
+	4.加颜色
+
+格式：  username@hostname:dir
+
+十行解决
+
+
+
+作业 ：实现cd
+
+作业 实现～
+屏蔽ctrl c
+
+chdir
+
+readdir()
+
+
+只有用户是我才能执行，  并且文件名是./haizeix 才能执行
+
+
+popen  管道 system  系统调用   有没有什么特殊点 和 需要注意的部分
+
+
+curses.h
+
+
+
+
+socket_connect 用select改写   三个参数：ip port timeval结构体
+
+连上的标志：能写   所以关注writefds即可。
+了解pselect  与 select的异同   poll epoll
+
+
+写一个sleep（）函数 用pause（）； 了解信号，底层的时钟。
+如何实现比sleep更精确的计时器：------
+
+
+足球减速。
+足球 epoll
+
+soccer game 待改：1. 客户端按q 自己也退出（要检测到服务端关闭了对应的socket）
+		2. 如何去掉score_get 线程
+
+
+
+用户信息与磁盘
+
+
+哲学家进餐问题 消费者--生产者 读者--写者问题  信号量
+PV操作
+
+银行家算法 
+
+
+日志管理器 
+巡检脚本：查日志，查进程是否在运行。
+
+
+
+
+
